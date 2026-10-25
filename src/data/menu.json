@@ -1,0 +1,119 @@
+{
+  "business": {
+    "name": "Chop Time Restaurant",
+    "tagline": "Authentic Ghanaian home cooking",
+    "hours": "Monday–Saturday 10am–10pm, Sunday 12pm–8pm",
+    "delivery_radius": "Within 5km of Osu, Accra",
+    "min_order": 20,
+    "currency": "GHS",
+    "delivery_fee": 10,
+    "free_delivery_threshold": 100,
+    "estimated_delivery": "30–45 minutes",
+    "payment_methods": ["MTN MoMo", "Vodafone Cash", "AirtelTigo Money", "Cash on delivery"]
+  },
+  "categories": [
+    {
+      "id": "rice",
+      "name": "Rice Dishes",
+      "items": [
+        {
+          "id": "jollof_sm", "name": "Jollof Rice", "size": "Small",  "price": 25, "description": "Smoky party-style jollof rice"
+        },
+        {
+          "id": "jollof_lg", "name": "Jollof Rice", "size": "Large",  "price": 40, "description": "Smoky party-style jollof rice"
+        },
+        {
+          "id": "fried_rice_sm", "name": "Fried Rice", "size": "Small", "price": 25, "description": "Ghanaian-style fried rice with mixed vegetables"
+        },
+        {
+          "id": "fried_rice_lg", "name": "Fried Rice", "size": "Large", "price": 40, "description": "Ghanaian-style fried rice with mixed vegetables"
+        },
+        {
+          "id": "waakye", "name": "Waakye", "size": "Plate", "price": 30, "description": "Rice and beans cooked with sorghum leaves, served with gari, spaghetti, and stew"
+        }
+      ]
+    },
+    {
+      "id": "soups",
+      "name": "Soups & Stews",
+      "items": [
+        {
+          "id": "light_soup", "name": "Light Soup", "size": "Bowl", "price": 35, "description": "Tomato-based broth with your choice of meat, served with fufu or rice balls"
+        },
+        {
+          "id": "groundnut_soup", "name": "Groundnut Soup", "size": "Bowl", "price": 40, "description": "Rich peanut-based soup, served with fufu"
+        },
+        {
+          "id": "palm_nut_soup", "name": "Palm Nut Soup", "size": "Bowl", "price": 40, "description": "Rich palm nut soup with assorted meats"
+        },
+        {
+          "id": "kontomire", "name": "Kontomire Stew", "size": "Portion", "price": 30, "description": "Cocoyam leaves cooked with smoked fish and tomatoes"
+        }
+      ]
+    },
+    {
+      "id": "proteins",
+      "name": "Proteins (Add-ons)",
+      "items": [
+        { "id": "chicken", "name": "Grilled Chicken", "size": "Piece", "price": 30 },
+        { "id": "tilapia", "name": "Fried Tilapia", "size": "Whole", "price": 55 },
+        { "id": "beef", "name": "Beef", "size": "Portion", "price": 25 },
+        { "id": "tuna", "name": "Tuna", "size": "Portion", "price": 20 },
+        { "id": "egg", "name": "Boiled Egg", "size": "Each", "price": 5 }
+      ]
+    },
+    {
+      "id": "sides",
+      "name": "Sides & Snacks",
+      "items": [
+        { "id": "kelewele", "name": "Kelewele", "size": "Portion", "price": 15, "description": "Spiced fried plantain" },
+        { "id": "plantain", "name": "Fried Plantain", "size": "Portion", "price": 12 },
+        { "id": "salad", "name": "Green Salad", "size": "Bowl", "price": 15 },
+        { "id": "coleslaw", "name": "Coleslaw", "size": "Bowl", "price": 12 },
+        { "id": "chips", "name": "Yam Chips", "size": "Portion", "price": 18 }
+      ]
+    },
+    {
+      "id": "drinks",
+      "name": "Drinks",
+      "items": [
+        { "id": "sobolo", "name": "Sobolo (Hibiscus Drink)", "size": "500ml", "price": 10 },
+        { "id": "water", "name": "Bottled Water", "size": "500ml", "price": 5 },
+        { "id": "malt", "name": "Malta Guinness", "size": "Can", "price": 12 },
+        { "id": "coke", "name": "Coca-Cola", "size": "Can", "price": 10 }
+      ]
+    }
+  ],
+  "deals": [
+    {
+      "id": "family_pack",
+      "name": "Family Pack",
+      "description": "2 large jollof or fried rice + 2 grilled chicken + 2 fried plantain",
+      "original_price": 134,
+      "deal_price": 110,
+      "savings": 24
+    },
+    {
+      "id": "solo_combo",
+      "name": "Solo Combo",
+      "description": "1 small rice (your choice) + 1 protein + 1 drink",
+      "original_price": 65,
+      "deal_price": 55,
+      "savings": 10
+    },
+    {
+      "id": "soup_special",
+      "name": "Soup Special",
+      "description": "Any soup + fufu + 1 drink",
+      "original_price": 55,
+      "deal_price": 45,
+      "savings": 10
+    }
+  ],
+  "faq": [
+    { "q": "Do you deliver?", "a": "Yes, within 5km of Osu. Delivery fee is GHS 10, free for orders above GHS 100." },
+    { "q": "How long does delivery take?", "a": "30 to 45 minutes on average." },
+    { "q": "Can I pay on delivery?", "a": "Yes, we accept cash, MTN MoMo, Vodafone Cash, and AirtelTigo Money." },
+    { "q": "Do you do takeaway?", "a": "Yes, you can pick up your order from our location in Osu." }
+  ]
+}
